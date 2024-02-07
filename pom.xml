@@ -82,6 +82,11 @@
 					<mainJar>hellojpackage-${project.version}.jar</mainJar>
 					<mainClass>name.mjw.hellojpackage.Launcher</mainClass>
 					<destination>${project.build.directory}/dist</destination>
+					<fileAssociations>
+						<fileAssociation>src/main/resources/foo.properties</fileAssociation>
+						<fileAssociation>src/main/resources/bar.properties</fileAssociation>
+					</fileAssociations>
+
 				</configuration>
 
 				<executions>
@@ -180,11 +185,11 @@
 	</build>
 
 	<dependencies>
-                <dependency>
-                        <groupId>org.openjfx</groupId>
-                        <artifactId>javafx-controls</artifactId>
-                        <version>${javafx.version}</version>
-                </dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>${javafx.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.openjfx</groupId>

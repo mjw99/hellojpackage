@@ -82,10 +82,6 @@
 					<mainJar>hellojpackage-${project.version}.jar</mainJar>
 					<mainClass>name.mjw.hellojpackage.Launcher</mainClass>
 					<destination>${project.build.directory}/dist</destination>
-
-					<verbose>true</verbose>
-					<temp>${project.build.directory}/tmp</temp>
-
 				</configuration>
 
 				<executions>

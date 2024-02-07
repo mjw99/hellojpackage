@@ -72,6 +72,7 @@
 
 
 			<plugin>
+				<!-- https://github.panteleyev.org/jpackage-maven-plugin/ -->
 				<groupId>org.panteleyev</groupId>
 				<artifactId>jpackage-maven-plugin</artifactId>
 				<version>${jpackage-maven-plugin.version}</version>

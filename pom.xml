@@ -82,6 +82,9 @@
 					<mainJar>hellojpackage-${project.version}.jar</mainJar>
 					<mainClass>name.mjw.hellojpackage.Launcher</mainClass>
 					<destination>${project.build.directory}/dist</destination>
+					<!-- this gets mapped over to /opt/hellojpackage/lib/hellojpackage.png -->
+					<icon>./src/main/resources/icons/rabbit.png</icon>
+
 					<fileAssociations>
 						<fileAssociation>src/main/resources/foo.properties</fileAssociation>
 						<fileAssociation>src/main/resources/bar.properties</fileAssociation>

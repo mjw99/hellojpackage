@@ -19,7 +19,7 @@
 		     mvn versions:display-dependency-updates
 
                      to check for updates for these below -->
-		<javafx.version>21.0.2</javafx.version>
+		<javafx.version>21.0.6</javafx.version>
 
 
 		<!-- Use:
@@ -90,6 +90,9 @@
 						<fileAssociation>src/main/resources/foo.properties</fileAssociation>
 						<fileAssociation>src/main/resources/bar.properties</fileAssociation>
 					</fileAssociations>
+
+					<temp>${project.build.directory}/tmp</temp>
+					<verbose>true</verbose>
 
 				</configuration>
 
